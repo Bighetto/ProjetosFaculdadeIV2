@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <form name="calculos" id="calculos">
+    <div id="box">
+        <section class="sections" id="NumMaisProx">
+            <h2>Retorno número quebrado em inteiro mais próximo:</h2>
+            <span class="legenda">Insira o número quebrado:</span>
+            <input type="number" class="num" id="valor1">
+            <input type="button" onclick= {numMaisProx()} class="btn" value="Verificar">
+            <input type="text" name="verificado" class="result" id="verify" value="">
+        </section>
+
+        <section class="sections" id="potencia">
+            <h2>Potência:</h2>
+            <span class="legenda">valor1:</span>
+            <input type="number" class= "num" id="pot1">
+            <span class="legenda">valor2:</span>
+            <input type="number" class="num" id="pot2">
+            <input type="button" onclick= {calculoPotencia()} class="btn" value="Calcular">
+            <input type="text" name="resultado" class="result" id="res1" value="">
+        </section>
+
+        <section class="sections" id="raioCirculo">
+            <h2> Calculo de Circulo: </h2>
+            <div>
+                <h4>Medida de círculo:</h4>
+                <span class="legenda">Insira o Valor do Raio:</span>
+                <input type="number" class="num" id="raio">
+                <input type="button" onclick= {raioCirculo()} class="btn" value="Calcular">
+                <input type="text" name="resultado2" class="result" id="res2" value="">
+            </div>
+
+            <div>
+                <h4>Calculo da área do círculo</h4>
+                <span class="legenda">Insira o Valor do Raio:</span>
+                <input type="number" class="num" id="raio2">
+                <input type="button" onclick= {areaCirculo()} class="btn" value="Calcular">
+                <input type="text" name="resultado3" class="result" id="res3" value="">
+            </div>
+
+        </section>
+
+        <section class="sections" id="medidaCubo">
+            <h2>Medida de um Cubo:</h2>
+            <div>
+                <h4> Calculo de Área da Base: </h4>
+                <span class="legenda">Insira o tamanho de uma extremidade do cubo:</span>
+                <input type="number" class="num" id="extremidadeBaseCubo">
+                <input type="button" onclick= {areaBaseCubo()} class="btn" value="Calcular">
+                <input type="text" name="resultado4" class="result" id="res4" value="">
+            </div>
+
+            <div>
+                <h4> Calculo de Área Total: </h4>
+                <span class="legenda">Insira o tamanho de uma extremidade do cubo:</span>
+                <input type="number" class="num" id="areaTotalCubo">
+                <input type="button" onclick= {areaTotalDoCubo()} class="btn" value="Calcular">
+                <input type="text" name="resultado5" class="result" id="res5" value="">
+            </div>
+
+            <div>
+                <h4> Calculo do Volume Total: </h4>
+                <span class="legenda">Insira o tamanho de uma extremidade do cubo:</span>
+                <input type="number" class="num" id="VolumeTotDoCubo">
+                <input type="button" onclick= {volumeTotalDoCubo()} class="btn" value="Calcular">
+                <input type="text" name="resultado6" class="result" id="res6" value="">
+            </div>
+        </section>
+
+        <section class="sections" id="raizQuadrada">
+            <h2>Calculo de Raiz quadrada:</h2>
+            <span class="legenda"> Insira o Valor em número:</span>
+            <input type="number" class="num" id="CalculoRaizQuadrada">
+            <input type="button" onclick= {raizQuadrada()} class="btn" value="Calcular">
+            <input type="text" name="resultado7" class="result" id="res7" value="">
+            <input type="reset" onclick= {} class="btnClear" value="Limpar">
+        </section>
+
+    </div>
+   </form>
+
+   <footer class="rodape">
+
+   </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

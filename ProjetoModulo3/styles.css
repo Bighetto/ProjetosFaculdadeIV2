@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+* {margin: 0px; padding: 0px;}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(68,58,180,1) 23%, rgba(29,139,253,1) 49%, rgba(69,252,152,1) 87%);
+    font-family: 'Mate SC', serif;
+}
+
+#box {
+    margin: 0 auto;
+    width: 800px;
+    position: relative;
+    margin-top: 40px;
+    top: 50px;
+    border:solid black;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+#NumMaisProx {
+    width: 100%;
+    background-color: cornflowerblue;
+    border-bottom:solid black;
+    border-radius: 1px;
+    border-width: 3px;
+    text-align: center;
+}
+
+#potencia {
+    width: 100%;
+    background-color: rgb(76, 180, 240);
+    border-bottom:solid black;
+    border-width: 3px;
+    text-align: center;
+    border-width: 3px;
+}
+
+#raioCirculo {
+    width: 100%;
+    background-color: rgb(61, 211, 238);
+    border-bottom: solid black;
+    text-align: center;
+    border-width: 3px;
+}
+
+#medidaCubo {
+    width: 100%;
+    background-color: rgb(76, 240, 232);
+    border-bottom: solid black;
+    text-align: center;
+    border-width: 3px;
+}
+
+#raizQuadrada {
+    width: 100%;
+    background-color: rgb(76, 240, 177);
+    text-align: center;
+    border-width: 3px;
+}
+
+.legenda {
+    font-size: 15px;
+}
+
+#calculos h2 {
+    padding: 5px;
+}
+
+.btn {
+    border: solid 1px black;
+    background-color: crimson;
+    color: white;
+    border-width: 1px;
+    padding: 4px 7px;
+    width: 80px;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: inset 0 0 0 2px crimson;
+}
+
+.sections {
+    padding: 10px 0 10px 0;
+}
+
+.sections h4 {
+    padding: 10px 0 10px 0;
+}
+
+.num {
+    padding: 5px;
+    width: 80px;
+    background: rgb(228, 228, 118);
+}
+
+.result {
+    padding: 5px;
+    width: 60px;
+    background: rgb(228, 228, 118);
+}
+
+.btnClear {
+    border: solid 1px black;
+    background-color: crimson;
+    margin-left: 250px;
+    color: white;
+    border-width: 1px;
+    padding: 4px 7px;
+    width: 80px;
+}
+
+.btnClear:hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: inset 0 0 0 2px crimson;
+}
+
+.rodape {
+    margin-top: 170px;
+}
