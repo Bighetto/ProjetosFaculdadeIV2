@@ -15,7 +15,7 @@
         </header>
         <main>
             <form>
-                <div class="adicaoDados">
+                <div id="adicaoDados">
                     <h3 id="tituloinput">Insira os Dados para o Cadastro</h3>
                     <div class="inputs">
                         <label class="labels">Nome e Sobrenome:</label>
@@ -72,7 +72,7 @@
                         <input type="date" id="dataCadastro" required="Campo Obrigatorio." placeholder="Obrigatorio">
                     </div>
 
-                    <button id="btn">
+                    <button id="btn" onclick= {cadastrar()}>
                     Enviar
                     </button>
                 </div>
@@ -83,16 +83,16 @@
                 <table>
                     <tdead>
                         <tr>
-                            <td>Nome Completo</td>
-                            <td>E-mail</td>
-                            <td>Telefone</td>
-                            <td>CEP</td>
-                            <td>Rua</td>
-                            <td>Número</td>
-                            <td>Complemento</td>
-                            <td>Bairro</td>
-                            <td>Cidade</td>
-                            <td>Estado</td>
+                            <td id="tabelaNome">Nome Completo</td>
+                            <td id="tabelaEmail">E-mail</td>
+                            <td id="tabelaTelefone">Telefone</td>
+                            <td id="tabelaCep">CEP</td>
+                            <td id="tabelaRua">Rua</td>
+                            <td id="tabelaNumero">Número</td>
+                            <td id="tabelaComplemento">Complemento</td>
+                            <td id="tabelaBairro">Bairro</td>
+                            <td id="tabelaCidade">Cidade</td>
+                            <td id="tabelaEstado">Estado</td>
                         </tr>
                     </tdead>
                     <tbody id="tbody"></tbody>
